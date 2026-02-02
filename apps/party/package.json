@@ -1,0 +1,21 @@
+{
+  "name": "impostor-party",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "dev": "partykit dev src/room.ts",
+    "deploy": "partykit deploy src/room.ts",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@impostor/game": "workspace:*",
+    "@impostor/shared": "workspace:*",
+    "partykit": "^0.0.94",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "vitest": "^2.1.2",
+    "ws": "^8.18.0"
+  }
+}

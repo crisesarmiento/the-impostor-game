@@ -1,0 +1,11 @@
+{
+  "name": "the-impostor-game",
+  "private": true,
+  "packageManager": "pnpm@9.12.0",
+  "scripts": {
+    "dev:web": "pnpm -C apps/web dev",
+    "dev:party": "pnpm -C apps/party dev",
+    "dev": "pnpm dev:party & pnpm dev:web",
+    "test": "pnpm -C packages/game test && pnpm -C apps/party test"
+  }
+}

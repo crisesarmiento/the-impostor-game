@@ -1,0 +1,4 @@
+{
+  "name": "impostor-vs-crew",
+  "main": "src/room.ts"
+}
